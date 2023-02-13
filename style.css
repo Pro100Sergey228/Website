@@ -1,0 +1,420 @@
+body{
+    background-color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 1170px;
+
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    padding-left: 150px;
+    justify-content: space-around;
+    
+}
+.logo{
+    left: 500px;
+    padding-right: 30px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 25px;
+
+}
+.iconki{
+    display: flex;
+    margin-left: 55%;
+}
+.icon{
+    margin-left: 20%;
+
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+    padding-left: 5%;
+    font-size: 30px;
+    margin-top: 38px;
+
+}
+.nav>li{
+    padding-left: 70px;
+    margin-left: 70px;
+    position: relative;
+}
+.nav>li>a{
+    text-decoration: none;
+    color:black;
+
+}
+.glav{
+    position:relative;
+    margin-top: 2%;
+}
+.textfon{
+    position: absolute;
+    top:0;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+.text{
+    font-size: 30px;
+    color: aliceblue;
+}
+.text2{
+    font-size: 20px;
+}
+p2{
+    font-weight: 700;
+    font-size: 32px;
+}
+p3{
+    color: aliceblue;
+}
+h1{
+    font-weight: normal;
+    color: aliceblue;
+}
+.knopka{
+    min-height: 50px;
+    min-width: 300px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-top: 35px;
+}
+main{
+    margin-top: 50px;
+}
+.tekst{
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 32px;
+}
+.smvse{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.raspol{
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+.fotraz{
+    max-width: 300px;
+    max-height: 300px;
+}
+.tekst-fot{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+p5{
+    font-weight: bold;
+}
+p6{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.plenka-text{
+    padding-left: 150px;
+    position: absolute;
+}
+.plenka{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 15%;
+    position: absolute;
+    width: 100%;
+    font-size: 30px;
+}
+.fon2{
+    margin-top: 5%;
+}
+.ava{
+    margin-left: 60%;
+    position: absolute;
+}
+.fotiki{
+    max-width: 300px;
+    max-height: 300px;
+}
+.plenka-text2{
+    flex-direction: column;
+}
+p2{
+    font-weight: 700;
+    font-size: 32px;
+}
+p7{
+    font-weight: 100;
+    color: black;
+}
+.pokypka{
+    padding-top: 25px;
+    display: flex;
+    margin-top: 5%;
+}
+.color1{
+    background: black; 
+    margin-right: 15px;
+    width: 30px; 
+    height: 30px; 
+    border-radius: 30px;
+}
+.color2{
+    background: lawngreen; 
+    margin-right: 15px;
+    width: 30px; 
+    height: 30px; 
+    border-radius: 30px;
+}
+.color3{
+    background: gold; 
+    
+    width: 30px; 
+    height: 30px; 
+    border-radius: 30px;
+}
+.text-in{
+    padding-left: 150px;
+    min-width: 250px
+}
+.foto5{
+    position: absolute;
+    margin-left: 28%;
+    margin-top: -5%;
+}
+.fotochka2{
+position: absolute;
+position: inherit;
+}
+.opis{
+    display: flex;
+    flex-direction: column;
+}
+.krug{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.collor{
+    margin-top: 10px;
+}
+.opisi{
+    justify-content: space-between;
+    display: flex;
+}
+.cenik{
+    align-items: center;
+    padding-top: 25px;
+    justify-content: space-between;
+    display: flex;
+}
+p8{
+    font-size: 24px;
+}
+.zakaz{
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 25px;
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 200px;
+    border-radius: 30px;   
+}
+.opisanie{
+    padding-top: 50px;
+    justify-content: space-between;
+    display: flex;
+    height: 350px;
+}
+.text-opisan{
+    padding-right: 150px;
+    font-size: 24px;
+    font-weight: 100;
+    margin-top: 1%;
+}
+.vibr{
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+}
+.opisanie2{
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    font-size: 35px;
+}
+.opisanie2:hover{
+    text-decoration: underline;
+}
+.xarak2{
+    padding-top: 15px;
+    color: rgb(212, 212, 212);
+    font-size: 28px; 
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.5s linear;
+}
+.xarak2:hover{
+    color: black;
+    text-decoration: underline;
+}
+.otzivi2{
+    padding-top: 15px;
+    color: rgb(212, 212, 212);
+    font-size: 28px; 
+    font-weight: 700;
+    text-decoration: none;
+
+    transition: 0.5s linear;
+}
+.otzivi2:hover{
+    color: black;
+    text-decoration: underline;
+
+}
+.legenda-foto{
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 8%;
+}
+.legenda-foto1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+
+}
+.legenda-foto2{
+    display: flex;
+    flex-direction: column;
+    padding-right: 150px;
+}
+.fotoo{
+    padding-top: 15px;
+    height: 200px;
+    width: 250px;
+}
+p9{
+    font-size: 38px;
+}
+.text-foto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5%;
+    color: #fee7f1;
+}
+.text-centr{
+    margin-top: 8%;
+    padding-left: 100px;
+    padding-right: 80px;
+}
+.button5{
+    text-align: center;
+    padding-top: 35px;
+}
+.btn5{
+    color: white;
+    background-color: blueviolet;
+    height: 45px;
+    width: 200px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.nahkahtstvo{
+    padding-top: 100px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.block1{
+    padding-left: 150px;
+    margin-left: 60px;
+}
+.dogovor-text{
+    background: black; 
+    margin-right: 15px;
+    width: 35px; 
+    height: 35px; 
+    border-radius: 30px;
+    border: none;
+}
+.dogovor{
+    
+    padding-right: 150px;
+    display: flex;
+    flex-direction: column;
+    
+}
+p10{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+p30{
+    font-size: 34px;
+}
+.zap{
+    background: linear-gradient(135deg, rgb(4, 0, 255) 0%, #fee7f1 150%);
+    justify-content: space-around;
+    margin-top: 5%;
+    display: flex;
+}
+.zap-top{
+    margin-top: 15%;
+    color: #fee7f1;
+}
+.formi{
+    display: flex;
+    margin-top: 35px;
+    color: #fee7f1;
+}
+input[type=text]{
+    width: 350px;
+    height: 30px;
+}
+input[type=checkbox]{
+    margin-top: 3%;
+}
+.btn6{
+    color: aliceblue;
+    background-color: blueviolet;
+    height: 50px;
+    width: 250px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 3%;
+
+}
+.footer{
+    position: absolute;
+    margin-top: 26%;
+    display: flex;
+    width: 100%;
+    justify-content:space-evenly;
+    background-color: darkgray;
+    padding-top: 2%;
+
+}
